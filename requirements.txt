@@ -1,0 +1,21 @@
+# Bot y Panel
+python-telegram-bot>=20.0
+streamlit>=1.30.0
+
+# RAG, LLM y Vectores
+openai>=1.0.0
+numpy>=1.24.0
+
+# Pruebas y Cobertura (>90%)
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-asyncio>=0.21.0
+
+# Utilidades de Entorno y Logs
+python-dotenv>=1.0.0
+
+# Cliente HTTP asíncrono (necesario para las llamadas a NVIDIA sin bloquear el event loop del bot)
+httpx>=0.25.0
+
+# Mocks para pruebas sin consumir créditos de API
+pytest-mock>=3.11.0
